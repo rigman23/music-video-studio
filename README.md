@@ -38,6 +38,11 @@ git remote add origin YOUR_REPOSITORY_URL_HERE
 
 # Push to remote repository
 git push -u origin main
+
+# Verify your setup
+git remote -v
+git status
+git log --oneline -1
 ```
 
 Replace `YOUR_REPOSITORY_URL_HERE` with your actual GitHub repository URL (e.g., `https://github.com/username/repo.git` or `git@github.com:username/repo.git`).

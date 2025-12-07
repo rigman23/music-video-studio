@@ -54,6 +54,20 @@ If you're creating a new project based on this template:
    git push -u origin main
    ```
 
+7. **Verify Setup**
+   
+   Confirm your repository is properly configured:
+   ```bash
+   git remote -v
+   git status
+   git log --oneline -1
+   ```
+   
+   This will show:
+   - Your remote repository URLs
+   - Current branch and working tree status
+   - Most recent commit
+
 ### For Existing Repository
 
 If you're cloning an existing repository:
