@@ -41,11 +41,10 @@ If you're creating a new project based on this template:
    
    First, create a new repository on GitHub, then:
    ```bash
-   git remote add origin YOUR_GITHUB_REPO_URL
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
    ```
    
-   Replace `YOUR_GITHUB_REPO_URL` with your actual repository URL from GitHub.
-   Example: `https://github.com/yourusername/your-repo-name.git`
+   Replace `YOUR_USERNAME` with your GitHub username and `YOUR_REPO_NAME` with your repository name.
 
 6. **Push to GitHub**
    ```bash
@@ -96,7 +95,7 @@ After setting up your repository:
 **Solution**: Remove the existing remote and add again:
 ```bash
 git remote remove origin
-git remote add origin YOUR_GITHUB_REPO_URL
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 ```
 
 **Problem**: Permission denied when pushing

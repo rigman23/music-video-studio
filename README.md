@@ -34,13 +34,13 @@ git commit -m "Initial commit"
 git branch -M main
 
 # Add your remote repository
-git remote add origin YOUR_GITHUB_REPO_URL
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 
 # Push to remote repository
 git push -u origin main
 ```
 
-Replace `YOUR_GITHUB_REPO_URL` with your actual GitHub repository URL.
+Replace `YOUR_USERNAME` with your GitHub username and `YOUR_REPO_NAME` with your repository name.
 
 ### Installation
 
