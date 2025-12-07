@@ -28,13 +28,10 @@ git init
 git add .
 
 # Create initial commit
-git commit -m "Initial commit"
-
-# Rename the default branch to main
-git branch -M main
+git commit -m "Initial commit: Music Video Studio with Supabase"
 
 # Add your remote repository
-git remote add origin YOUR_REPOSITORY_URL_HERE
+git remote add origin https://github.com/rigman23/music-video-studio.git
 
 # Push to remote repository
 git push -u origin main
@@ -45,7 +42,7 @@ git status
 git log --oneline -1
 ```
 
-Replace `YOUR_REPOSITORY_URL_HERE` with your actual GitHub repository URL (e.g., `https://github.com/username/repo.git` or `git@github.com:username/repo.git`).
+**Note:** Replace the repository URL with your own if you're setting up a fork or new instance.
 
 ### Installation
 

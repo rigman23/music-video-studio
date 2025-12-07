@@ -29,32 +29,24 @@ If you're creating a new project based on this template:
 
 3. **Create Initial Commit**
    ```bash
-   git commit -m "Initial commit"
+   git commit -m "Initial commit: Music Video Studio with Supabase"
    ```
 
-4. **Set Main Branch**
-   ```bash
-   git branch -M main
-   ```
-
-5. **Add Remote Repository**
+4. **Add Remote Repository**
    
-   First, create a new repository on GitHub, then:
+   Add the GitHub repository as your remote:
    ```bash
-   git remote add origin YOUR_REPOSITORY_URL_HERE
+   git remote add origin https://github.com/rigman23/music-video-studio.git
    ```
    
-   Replace `YOUR_REPOSITORY_URL_HERE` with your actual GitHub repository URL.
-   Examples:
-   - HTTPS: `https://github.com/username/repo.git`
-   - SSH: `git@github.com:username/repo.git`
+   **Note:** Replace with your own repository URL if you're setting up a fork or new instance.
 
-6. **Push to GitHub**
+5. **Push to GitHub**
    ```bash
    git push -u origin main
    ```
 
-7. **Verify Setup**
+6. **Verify Setup**
    
    Confirm your repository is properly configured:
    ```bash
@@ -112,7 +104,7 @@ After setting up your repository:
 **Solution**: Remove the existing remote and add again:
 ```bash
 git remote remove origin
-git remote add origin YOUR_REPOSITORY_URL_HERE
+git remote add origin https://github.com/rigman23/music-video-studio.git
 ```
 
 **Problem**: Permission denied when pushing
